@@ -1,12 +1,10 @@
 body{
     background-color: #000000;
 }
-    background-color: #000000;
-}
 
 *{
-    padding: 0;
-    margin: 0;
+    padding:0;
+    margin:0;
     font-family: 'josefin',Sans-Serif;
     box-sizing: border-box;
 }
@@ -71,6 +69,10 @@ nav ul li a:hover{
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
+}
+
+.green{
+    color: #0030FF;
 }
 h1{
     color: white;
