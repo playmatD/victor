@@ -12,7 +12,7 @@ body{
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url('vick.jpg');
+    background-image: url('vick.png');
     background-size: cover;
 }
 nav{
@@ -122,11 +122,13 @@ h4{
     width: 100%;
     padding: 100x 0px;
     background-color: #030021;
-    
+    border: 2px solid white;
+   
 }
  .about img{
      height: auto;
      width: 430px;
+     border: 2px solid white;
      
  } 
  
