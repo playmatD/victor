@@ -1,414 +1,73 @@
-body{
-    background-color: #000000;
-}
+<DOCTYPE html!>
+   <html>
+ <head>
+  <meta name="propeller" content="cbfbefcdc0f2d48e3703d354e928d49d">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="author" content="victor">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="description" content="...">
+  <title>My Portfolio</title>
 
-*{
-    padding:0;
-    margin:0;
-    font-family: 'josefin',Sans-Serif;
-    box-sizing: border-box;
-}
+  <!-- Your main stylesheet -->
+  <link rel="stylesheet" href="style.css">
 
-.hero{
-    height: 100vh;
-    width: 100%;
-    background-image: url('vick.png');
-    background-size: cover;
-}
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
-}
-.logo{
-    color: white;
-    font-size: 35px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    
-}
-span{
-    color: #F20400;
-}
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    padding-left: 10px 25px;
-    
-    .me{
-        color: white;
-    }
-}
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    text-transform:capitalize ;
-    
-    
-}
-nav ul li a:hover{
-    color: red;
-    transition:.4s;
-}
+  <!-- Font Awesome for icons (only this line is needed) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-.btn{
-    background-color: red;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    border-radius: 30px;
-    padding: 10px 25px;
-    transition: transform .4s;
-}
-.btn :hover{
-    transform: scale(1.2);
-}
-.content{
-    position:absolute ;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-}
+</head>
 
-.green{
-    color: #0030FF;
-}
-h1{
-    color: white;
-    margin:20px 0px 20px ;
-    font-size: 75px;
-}
-h3{
-    color: white;
-    font-size: 25px;
-    margin-bottom: 50px;
-}
-h4{
-    color: #FF83DC;
-    letter-spacing: 2px;
-    font-size: 20px;
-    
-}
+   <body>
+     <div class="hero">
+  <nav data-aos="fade-down" data-aos-duration="1000">
+    <h2 class="logo"> <span>my</span> Portfo<span>lio</span></h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutme.html">About Us</a></li>
+      <li><a href="Services.html">Services</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+    <a href="https://youtube.com/gamelordVick" class="btn">Subscribe</a>
+  </nav>
 
-.newsletter form{
-    width: 380px;
-    max-width: 100%;
-    position: relative;
-}
+  <div class="content">
+    <h4 data-aos="fade-right" data-aos-duration="1000">Hello, my name <span class="green">is</span></h4>
+    <h1 data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">Victor <span>Nwodo</span></h1>
+    <h3 data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">I'm a web developer</h3>
 
-.newsletter form input:first-child{
-    display: inline-block;
-    width:100% ;
-    padding:14px 130px 14px 15px;
-    border:2px solid  #FF2762;
-    outline: none;
-    border-radius:30px;
-}
-    .newsletter form input:last-child{
-        position: absolute;
-        display: inline-block;
-        outline: none;
-        border: none;
-        padding:10px 30px ;
-        border-radius:30px ;
-        background-color:#6FFF00 ;
-        box-shadow: 0px 0px 5px #000, 0px 0px 15px #859477;
-        top: 6px;
-        right: 6px;
-        cursor: pointer;
-    }
-.about{
-    width: 100%;
-    padding: 100x 0px;
-    background-color: #030021;
-    border: 2px solid white;
+    <div class="newsletter" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+      <form>
+        <input type="email" id="mail" placeholder="Enter email.....">
+        <input type="submit" name="submit" value="Let's talk">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+    <div class="Contact-me">
+        <p> let me Get you a beautiful website</p>
+        <a  class="button-two" href="https://wa.me/message/YDTM5DKYRH7BO1">Hire Me</a>
+    </div>
+</div>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+   </body>
    
-}
- .about img{
-     height: auto;
-     width: 430px;
-     border: 2px solid white;
-     
- } 
- 
- .about-text{
-     width: 550px;
-     
- }
- .main{
-     width: 1130px;
-     max-width: 95% ;
-     margin: 0px auto  ;
-     display: flex;
-     align-items:center ;
-     justify-content: space-around;
- }
- 
- .about-text h2{
-     color: white;
-     font-size: 75px;
-     text-transform: capitalize;
-     margin-bottom: 20px;
- }
- 
- .about-text h5{
-     color: white;
-     letter-spacing: 2px;
-     font-size: 22px;
-     margin-bottom: 25px;
-     text-transform: capitalize;
-     
- }
- .about-text p{
-     color: #FF93F9;
-     letter-spacing: 2px;
-     line-height: 26px;
-     font-size: 18px;
-     margin-bottom: 45px;
-     
- }
- button{
-     background-color:#FF0051 ;
-     text-decoration:none ;
-     color: white;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition:.4s;
-    
- }
- 
- button :hover{
-     background-color: transparent;
-     cursor: pointer;
-     border:2px solid #FF4E57;
- }
- .services{
-     background-color: #101010;
-     width: 100%;
-     padding: 100px 0px;
- }
- 
- .title h2{
-     color: white;
-     font-size: 75px;
-     width: 1130px;
-     margin: 30px auto;
-     text-align: center;
- }
- .box{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     min-height: 480px;
- }
- 
- .card{
-     height: 365px;
-     width: 335px;
-     padding: 20px 35px;
-     background: #191919;
-     border-radius: 20px;
-     margin: 15px;
-     position: relative;
-     overflow: hidden;
-     text-align: center;
- }
- .card i{
-     font-size: 50px;
-     display: block;
-     text-align: center;
-     margin: 25px 0px;
-     color: #00FF4A;
- }
- h5{
-     color: white;
-     font-size: 23px;
-     margin-bottom: 15px;
- }
- 
- .pra p{
-     color:#FFACE1;
-     font-size: 16px;
-     line-height: 27px;
-     margin-bottom: 25px;
- }
- .card .button{
-      background-color:#FF0051 ;
-     text-decoration:none ;
-     color: white;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 9px 22px;
-    border-radius: 30px;
-    transition:.4s;
-    
- }
- 
- .card .button:hover{
-     background-color: transparent;
-     2px solid #E53465;
-     cursor: pointer;
-     
- }
- 
- .contact-me{
-     width: 100%;
-     height: 290px;
-     background: #191919;
-     display: flex;
-     align-items: center;
-     flex-direction: column;
-     justify-content: center;
- }
- .contact-me p{
-     color: white;
-     font-size: 30px;
-     font-weight: bold;
-     margin-bottom:25px ;
- }
- 
-.contact-me .button-two{
-      background-color:#FF0051 ;
-     text-decoration:none ;
-     color: white;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition:.4s;
-    
- }
- .contact-me .button-two:hover{
-     background-color: transparent;
-     border: 2px solid #FF298D;
-     cursor: pointer;
- }
- 
- footer{
-     position: relative;
-     width: 100%;
-     height: 400px;
-     background: #000000;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
- }
- 
- footer p:nth-child(1){
-     font-size:30px ;
-     color: white;
-     margin-bottom:20px ;
-     font-weight: bold;
-     
- }
- footer p:nth-child(2){
-     color: white;
-     font-size: 17px;
-     width: 500px;
-     text-align: center;
-     line-height: 26px;
- }
- .social{
-     display: flex;
- }
- .social a{
-     width:45px;
-     height:45px;
-     display:flex;
-     align-items:center;
-     justify-content: center;
-     background: #FF005C;
-     border-radius: 50%;
-     margin: 22px 10px;
-     color: white;
-     text-decoration: none;
-     font-size: 20px;
- }
- 
- .social a:hover{
-     transform: scale(1.5);
-     transition:.3s;
- }
- 
- .end{
-     position: absolute;
-     color: #FF1965;
-     bottom: 35px;
-     font-size: 14px;
- }
- 
- body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-}
-
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
+   <footer>
+       <p>victor Nwodo</p>
+       <p>checkout more information or watch exciting tutorial videos on my youtube channel:</p>
+       <div class="social">
+           <a href="https://www.facebook.com/captain.victor.313"> <i class="fab fa-facebook-f"></i></a>
+           <a href="https://www.instagram.com/vick_nwodo/"><i class="fab fa-instagram"></i></a>
+           <a href="https://dribbble.com/captainvick"> <i class="fab fa-dribbble"></i></a>
+       </div>
+       <p class="end">copy write by victor Nwodo</p>
+   </footer>

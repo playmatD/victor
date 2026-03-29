@@ -1,54 +1,51 @@
 <DOCTYPE html!>
    <html>
-   <head>
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="UTF-8">
-    <meta name="author" content="victor">
-    <meta name="keywords" content="HTML, CSS">
-    <meta name="description" comtent="...">
-       <title>my portfolio</title>
-       <link rel="stylesheet" href="style.css">
-       <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-       <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-   </head>
+ <head>
+  <meta name="propeller" content="cbfbefcdc0f2d48e3703d354e928d49d">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="author" content="victor">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="description" content="...">
+  <title>My Portfolio</title>
+
+  <!-- Your main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome for icons (only this line is needed) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
    <body>
-       <div class="hero">
-<nav>
-<h2 class="logo"> <span>my</span> Portfo<span>lio</span></h2>
-<ul>
-<li><a href= "index.html">Home </a> </li>
-<li><a href="aboutme.html">About Us</a></li>
-<li><a href-"Services.html">Services </a></li>
-<li><a href="skills.html">skills</a></li>
-<li><a href= "Contact.html"> Contact Us</a></li>
-</ul>
-<a href="https://youtube.com/channel/UCPUELFaG5k9FLKaWUoiFiXg" class="btn">Subscribe</a>
-</nav>
+     <div class="hero">
+  <nav data-aos="fade-down" data-aos-duration="1000">
+    <h2 class="logo"> <span>my</span> Portfo<span>lio</span></h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutme.html">About Us</a></li>
+      <li><a href="Services.html">Services</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+    <a href="https://youtube.com/gamelordVick" class="btn">Subscribe</a>
+  </nav>
 
-<div class="content">
-    <h4>Helo,my name <span>is</span></h4>
-    <h1>victor <span>Nwodo</span></h1>
-    <h3>i' am a web developer</h3>
-    <div class="newsletter">
-        <form>
-            <input type="email" id="mail" placeholder="enter email.....">
-            <input type="submit" name="submit" value="let's talk">
+  <div class="content">
+    <h4 data-aos="fade-right" data-aos-duration="1000">Hello, my name <span class="green">is</span></h4>
+    <h1 data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">Victor <span>Nwodo</span></h1>
+    <h3 data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">I'm a web developer</h3>
 
-        </form>
-        
+    <div class="newsletter" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+      <form>
+        <input type="email" id="mail" placeholder="Enter email.....">
+        <input type="submit" name="submit" value="Let's talk">
+      </form>
     </div>
-    
+  </div>
 </div>
-</div>
-<section class="Contact-me">
-   <div class="main">
-       <h1 class="me">Contact-me</h1>
-       <p class="number"> call: +2347040254407</p>
-       <i class="fa-brands fa-whatsapp-square"></i>
-   </div>
-</section>
-
-
 
 
     <div class="Contact-me">
@@ -56,6 +53,61 @@
         <a  class="button-two" href="https://wa.me/message/YDTM5DKYRH7BO1">Hire Me</a>
     </div>
 </div>
+
+
+<div class="about-section">
+  <h1>About me</h1>
+  <p>Some text about who i am  and what i do.</p>
+ 
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="vicky.png" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>vicky boss</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some describes as branches.</p>
+        <p>victorNwodo</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="vicky.png" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>vick_nwodo</h2>
+        <p class="title">Art Director</p>
+        <p>some describes me as branches.</p>
+        <p>victo Nwodo</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="vick.png" alt="victor" style="width:100%">
+      <div class="container">
+        <h2>vick</h2>
+        <p class="title">Designer</p>
+        <p>some describes me as branches.</p>
+        <p>@victor Nwodo</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
    </body>
    
    <footer>

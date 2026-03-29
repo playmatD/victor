@@ -1,0 +1,134 @@
+<DOCTYPE html!>
+   <html>
+ <head>
+  <meta name="propeller" content="cbfbefcdc0f2d48e3703d354e928d49d">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="author" content="victor">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="description" content="...">
+  <title>My Portfolio</title>
+
+  <!-- Your main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome for icons (only this line is needed) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+   <body>
+     <div class="hero">
+  <nav data-aos="fade-down" data-aos-duration="1000">
+    <h2 class="logo"> <span>my</span> Portfo<span>lio</span></h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutme.html">About Us</a></li>
+      <li><a href="Services.html">Services</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+    <a href="https://youtube.com/gamelordVick" class="btn">Subscribe</a>
+  </nav>
+
+  <div class="content">
+    <h4 data-aos="fade-right" data-aos-duration="1000">Hello, my name <span class="green">is</span></h4>
+    <h1 data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">Victor <span>Nwodo</span></h1>
+    <h3 data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">I'm a web developer</h3>
+
+    <div class="newsletter" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+<form action="https://formsubmit.co/nwodovick@gmail.com" method="POST">
+  <input type="email" name="email" required>
+  <input type="submit" value="Text">
+</form>
+
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<section class="about">
+    <div class="main">
+       <img src="vicky.jpg" alt="victor Nwodo" /> 
+       <div class="about-text">
+       <h2> about me</h2>
+       <h5>developer,<span> blogger</span> & youtuber</h5>
+       <p>Am a front end  web developer,web design,blogger,youthe and graphic designer with 2years experience.I can design and develope a responsive website that users can interact with regardless of their devices.</p>
+       <button type="button"> let talk</button>
+       </div>
+    </div>
+</section>
+<div class="service">
+    <div class="title">
+        <h2>our Service</h2>
+    </div>
+    <div class="box">
+       <div class="card" >
+           <i class="fas fa-bars"></i>
+           <h5>web developement</h5>
+           <div class="pra">
+               <p>Every website should be built with two primary goal:firstly,itneeds to work across all devices .secondly,it needs to be fast as possible.</p>
+
+               <p style="text-align: center;">
+                   <a class="button" href="#">read more</a>
+               </p>
+           </div>
+       </div>
+
+       <div class="card" >
+           <i class="fas fa-user"></i>
+           <h5>web developement</h5>
+           <div class="pra">
+               <p>Every website should be built with two primary goal:firstly,itneeds to work across all devices .secondly,it needs to be fast as possible.</p>
+
+               <p style="text-align: center;">
+                   <a class="button" href="#">read more</a>
+               </p>
+           </div>
+       </div>
+       <div class="card" >
+           <i class="fas fa-bell"></i>
+           <h5>web developement</h5>
+           <div class="pra">
+               <p>Every website should be built with two primary goal:firstly,itneeds to work across all devices .secondly,it needs to be fast as possible.</p>
+
+               <p style="text-align: center;">
+                   <a class="button" href="#">read more</a>
+               </p>
+           </div>
+       </div>
+    </div>
+
+
+
+    <div class="Contact-me">
+        <p> let me Get you a beautiful website</p>
+        <a  class="button-two" href="https://wa.me/message/YDTM5DKYRH7BO1">Hire Me</a>
+    </div>
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script src="script.js"></script>
+
+
+
+   </body>
+
+   <footer>
+       <p>victor Nwodo</p>
+       <p>checkout more information or watch exciting tutorial videos on my youtube channel:</p>
+       <div class="social">
+           <a href="https://www.facebook.com/captain.victor.313"> <i class="fab fa-facebook-f"></i></a>
+           <a href="https://www.instagram.com/vick_nwodo/"><i class="fab fa-instagram"></i></a>
+           <a href="https://dribbble.com/captainvick"> <i class="fab fa-dribbble"></i></a>
+       </div>
+       <p class="end">copy write by victor Nwodo</p>
+   </footer>
+   </html>
